@@ -3,9 +3,11 @@ function carregar () {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
+    var minuto = data.getMinutes()
+    var segu = data.getSeconds()
     
    
-    msg.innerHTML = `Agora são ${hora} horas.`
+    msg.innerHTML = `Que horas são: ${hora}:${minuto}:${segu}`
     if(hora >= 0 && hora < 12){
         //BOM DIA
         img.src = 'imagens/manhaa.png'
