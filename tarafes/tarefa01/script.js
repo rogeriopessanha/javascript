@@ -28,15 +28,6 @@ function carregar () {
         img.src = 'imagens/noitee.png'
         document.body.style.background = '#445F70'
         recado.innerHTML += `Tenha uma boa noite.`
-    }
-
-    semana.innerHTML = `Hoje é ${dia}`
-
-    
-
-    //madrugada é da 0h ás 6
+    }   
 }
 
-
-//#D2ADD7
-//#B4ADD7
