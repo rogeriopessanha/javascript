@@ -12,8 +12,8 @@ header{
 section{
     background-color: white;
     border-radius: 30px;
-    padding: 30px;
-    width: 400px;
+    padding: 20px;
+    width: 470px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(31, 27, 27, 0.43);
     
@@ -21,11 +21,45 @@ section{
 
 div{
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     font-size: 18px;
     font-weight: bold;
     
 }
+
+
+.relog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    padding: 25px;
+}
+
+.relog .box{
+    height: 100px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color:rgb(184, 192, 184) ;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+    border-radius: 50%;
+    letter-spacing: 3px;
+
+}
+
+.relog span{
+    font-size:22px ;
+    font-weight: 300;
+}
+
+.relog span.tempo{
+    font-size: 14px;
+}
+
 
 footer{
     color: black;
